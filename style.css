@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  background-color: hsl(94, 71%, 30%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+ display: flex;
+ justify-content: center;
+ width: 700px;
+ height: 700px;
+ background-color: rgb(203, 218, 169);
+}
+
+.counter{
+    display: inline-block;
+    padding: 10px;
+}
+#minute{
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  font-size: 120px;
+  padding: 20px;
+    
+}
+
+ #start{
+  margin-right: 80px;
+  width: 300px;
+  height: 60px;
+  border-radius: 20px;
+  font-size: 30px;
+}
+
+.counter-2{
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+#stop{
+  width:300px;
+  height: 60px;
+  border-radius: 20px;
+  font-size: 30px;
+}
+
+.svg{
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  font-size: 100px;
+  padding: 20px;
+} 
+
